@@ -1,0 +1,111 @@
+body {
+ 
+  font-family: Arial, sans-serif;
+  background-color: #6d9638;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #0fc8a9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(43, 78, 139, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+
+.form-control {
+  width: 100%;
+  height: 150%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Adjust border color and opacity */
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity */
+}
+
+/* Adjust the background and border of the button */
+.btn-primary {
+  background-color: rgba(0, 123, 255, 0.8); /* Adjust button background color and opacity */
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 123, 255, 0.8); /* Adjust button border color and opacity */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: rgba(0, 123, 255, 1); /* Adjust button hover background opacity */
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust table background color and opacity */
+}
+
+th, td {
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Adjust border color and opacity */
+  padding: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 95%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  text-align: left;
+}
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ce980e; /* Adjust link color */
+}
